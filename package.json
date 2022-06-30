@@ -1,0 +1,23 @@
+{
+  "name": "portafolio_simple",
+  "version": "1.0.0",
+  "description": "un portafolio para mostrar mi trabajo",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anvilla12/Portafolio-Simple.git"
+  },
+  "keywords": [
+    "portafolio",
+    "NextJS"
+  ],
+  "author": "Anavila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anvilla12/Portafolio-Simple/issues"
+  },
+  "homepage": "https://github.com/Anvilla12/Portafolio-Simple#readme"
+}
