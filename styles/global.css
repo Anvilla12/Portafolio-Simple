@@ -11,3 +11,14 @@
 .overflow .card-img-top:hover{
     transform: scale(1.8);
 }
+
+#nprogress .bar{
+    background: linear-gradient(90deg, #1e1e8a,#af1818);
+    
+}
+
+#nprogress .spinner-icon{
+    border-top-color: #1e1e8a;
+    border-left-color: #af1818;
+    border-width: 3px;
+}
