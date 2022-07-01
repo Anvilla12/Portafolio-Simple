@@ -1,9 +1,21 @@
 import Navbar from "./navbar";
+import Head from "next/head"
 
 const Layout = ({ children }) => (
   <>
     <Navbar />
-    {children}
+
+    <main className="container py-4">
+      {children}
+    </main>
+    <footer className="bg-dark text-light text-center">
+      <div className="container p-4">
+        <h1>&copy; Vivian Vislow</h1>
+        <p>2000 - {new Date().getFullYear()}</p>
+        <p>All rights reserved</p>
+      </div>
+
+    </footer>
   </>
 );
 
